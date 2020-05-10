@@ -3,7 +3,7 @@
 #
 kibibit:
   # Global
-  background-image: "center / cover no-repeat fixed url('/local/blur-color-bg.png')"
+  background-image: "center / cover no-repeat fixed url('https://thatkookooguy.github.io/https-assets/bg-kibibit-theme.png')"
   lovelace-background: var(--background-image)
   primary-color: "#209cee"  # from Apple systemOrange dark mode
   light-primary-color: "#B6B6C1"  # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)

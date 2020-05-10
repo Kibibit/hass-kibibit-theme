@@ -45,6 +45,25 @@ resources:
 4. Press `Install`.
 6. Go to services and trigger the `frontend.reload_themes` service.
 
+### Change the background
+
+This theme comes with a background by default, but you can change it to whatever you like.
+
+You can use either a url or a local file.
+
+1. Find a background you like (You can fetch the original one from [HERE](https://thatkookooguy.github.io/https-assets/bg-kibibit-theme.png))
+2. If it's a local image, put the background image inside `/config/www` to make it a public asset accessible from the frontend (`/config/www/bg-kibibit-theme.png`).
+
+access the theme file `kibibit.yaml` and change the following line:
+
+```yaml
+background-image: "center / cover no-repeat fixed url('https://thatkookooguy.github.io/https-assets/bg-kibibit-theme.png')"
+```
+
+to include your url, or a local asset by mapping `/config/www/` to `/local/` (`/local/bg-kibibit-theme.png`)
+
+Refresh home assistant after that.
+
 ### Manual
 
 Clone this repository in your existing (or create it) `themes/` folder.
