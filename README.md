@@ -6,6 +6,9 @@
   </h2>
 </p>
 <p align="center">
+  <a href="https://github.com/custom-components/hacs"><img src="https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge"></a>
+</p>
+<p align="center">
   A milky glass theme for Home Assistant
 </p>
 <hr>
@@ -13,7 +16,18 @@
 This is based on [Henrik](https://www.reddit.com/user/Trollet_/)'s [reddit post](https://www.reddit.com/r/homeassistant/comments/c4s28m/my_current_lovelace_ui_constructive_feedback_is/) with a few additions of mine
 
 
-## how to use
+## Installation
+
+### Prerequisites
+
+Add the following code to your `configuration.yaml` file (reboot required).
+
+```yaml
+frontend:
+  ... # your configuration.
+  themes: !include_dir_merge_named themes
+  ... # your configuration.
+```
 
 ### Add the font
 Right now, this theme requires you to add the `Comfortaa` font as a resource to your lovelace configuration:
@@ -23,30 +37,37 @@ resources:
   type: css
 ```
 
-### Install the theme
-Clone this repository into your `/config/themes/` folder or copy the `kibibit.yaml` file individually.
+### HACS
 
+1. Go to the Community Store.
+2. Search for `kibibit`.
+3. Navigate to `kibibit` theme.
+4. Press `Install`.
+6. Go to services and trigger the `frontend.reload_themes` service.
 
+### Manual
+
+Clone this repository in your existing (or create it) `themes/` folder.
+
+```bash
+cd themes/
+git clone https://github.com/Kibibit/hass-kibibit-theme.git
+```
+
+Or using submodules:
+
+```bash
+cd themes/
+git submodule add https://github.com/Kibibit/hass-kibibit-theme.git
+```
+
+## Screenshots
+![Theme - Overview](/screenshots/dashboard-example.png)
 
 ## Stay in touch
 
 - Author - [Neil Kalman](https://github.com/thatkookooguy)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## Contributors
-
-Want to file a bug, contribute some code, or improve documentation? Excellent! Read up on our guidelines for [contributing](CONTRIBUTING.MD).
-
-You can check out some easy to start with issues in the [Easy Pick](https://github.com/Kibibit/achievibit/labels/Easy%20Pick).
-
-## Contributor Code of Conduct
-Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
-
-By participating in this project you agree to abide by its terms.
-
-## License
-
-[MIT License](LICENSE)
-
-Copyright (c) 2018 Neil Kalman &lt;neilkalman@gmail.com&gt;
+- Website - [https://github.com/kibibit](https://github.com/kibibit)
+- StackOverflow - [thatkookooguy](https://stackoverflow.com/users/1788884/thatkookooguy)
+- Twitter - [@thatkookooguy](https://twitter.com/thatkookooguy)
+- Twitter - [@kibibit_opensrc](https://twitter.com/kibibit_opensrc)
