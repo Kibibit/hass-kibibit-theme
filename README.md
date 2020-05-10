@@ -64,20 +64,19 @@ to include your url, or a local asset by mapping `/config/www/` to `/local/` (`/
 
 Refresh home assistant after that.
 
-### Manual
-
-Clone this repository in your existing (or create it) `themes/` folder.
-
-```bash
-cd themes/
-git clone https://github.com/Kibibit/hass-kibibit-theme.git
-```
-
-Or using submodules:
-
-```bash
-cd themes/
-git submodule add https://github.com/Kibibit/hass-kibibit-theme.git
+### Setting the default `backend-selected` theme
+In order to have this theme set automatically as the backend selected default, add the following automation to your home assistant:
+```yaml
+- alias: Set Default Theme
+  description: ''
+  trigger:
+  - event: start
+    platform: homeassistant
+  condition: []
+  action:
+  - data:
+      name: kibibit
+    service: frontend.set_theme
 ```
 
 ## Screenshots
