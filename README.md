@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/Kibibit/hass-kibibit-theme/" target="blank"><img src="hassio-theme-logo.png" width="200" alt="achievibit Logo" />
+  <a href="https://github.com/Kibibit/hass-kibibit-theme/" target="blank"><img src="http://kibibit.io/kibibit-assets/hassio-theme/hassio-theme-logo.png" width="200" alt="achievibit Logo" />
   </a>
   <h2 align="center">
     @kibibit/hass-kibibit-theme
@@ -62,7 +62,7 @@ git submodule add https://github.com/Kibibit/hass-kibibit-theme.git
 ```
 
 ## Screenshots
-![Theme - Overview](/screenshots/dashboard-example.png)
+![Theme - Overview](http://kibibit.io/kibibit-assets/hassio-theme/dashboard-example.png)
 
 ## Stay in touch
 
