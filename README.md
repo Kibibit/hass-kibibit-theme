@@ -17,6 +17,7 @@ This is based on [Henrik](https://www.reddit.com/user/Trollet_/)'s [reddit post]
 
 ## Screenshots
 ![Theme - Overview](https://thatkookooguy.github.io/https-assets/dashboard-example.png)
+![Theme - mobile](https://thatkookooguy.github.io/https-assets/mobile.png)
 
 [more screenshots](https://imgur.com/a/b7HaXx3#ExNC57m)
 
