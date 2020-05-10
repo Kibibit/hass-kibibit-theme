@@ -15,6 +15,8 @@
 
 This is based on [Henrik](https://www.reddit.com/user/Trollet_/)'s [reddit post](https://www.reddit.com/r/homeassistant/comments/c4s28m/my_current_lovelace_ui_constructive_feedback_is/) with a few additions of mine
 
+## Screenshots
+![Theme - Overview](https://thatkookooguy.github.io/https-assets/dashboard-example.png)
 
 ## Installation
 
@@ -78,9 +80,6 @@ In order to have this theme set automatically as the backend selected default, a
       name: kibibit
     service: frontend.set_theme
 ```
-
-## Screenshots
-![Theme - Overview](https://thatkookooguy.github.io/https-assets/dashboard-example.png)
 
 ## Stay in touch
 
