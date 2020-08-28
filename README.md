@@ -7,7 +7,7 @@
 </p>
 <p align="center">
   <a href="https://github.com/custom-components/hacs"><img src="https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge"></a>
-  <a href="https://imgur.com/a/b7HaXx3#ExNC57m"><img src="https://img.shields.io/badge/Screenshots-Click_Here-ff3860.svg?style=for-the-badge"></a>
+  <a href="https://imgur.com/gallery/SQJNbWb"><img src="https://img.shields.io/badge/Screenshots-Click_Here-ff3860.svg?style=for-the-badge"></a>
 </p>
 <p align="center">
   A milky glass theme for Home Assistant
@@ -20,7 +20,7 @@ This is based on [Henrik](https://www.reddit.com/user/Trollet_/)'s [reddit post]
 ![Theme - Overview](https://thatkookooguy.github.io/https-assets/dashboard-example.png)
 ![Theme - mobile](https://thatkookooguy.github.io/https-assets/mobile.png)
 
-[more screenshots](https://imgur.com/a/b7HaXx3#ExNC57m)
+[more screenshots](https://imgur.com/gallery/SQJNbWb)
 
 ## Installation
 
