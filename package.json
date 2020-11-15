@@ -34,6 +34,9 @@
     "semantic-release:init": "semantic-release-cli setup"
   },
   "keywords": [
+    "home-assistant",
+    "hass",
+    "automation",
     "hassio",
     "homeassistant",
     "theme"
