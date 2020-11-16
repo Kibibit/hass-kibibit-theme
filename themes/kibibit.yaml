@@ -10,7 +10,7 @@ kibibit:
   background-image5: "center / cover no-repeat fixed url('/local/bg.png'), center / cover no-repeat fixed url('https://thatkookooguy.github.io/https-assets/bg/abstract/bg5.png')"
   background-image6: "center / cover no-repeat fixed url('/local/bg.png'), center / cover no-repeat fixed url('https://thatkookooguy.github.io/https-assets/bg/abstract/bg6.png')"
   background-image7: "center / cover no-repeat fixed url('/local/bg.png'), center / cover no-repeat fixed url('https://thatkookooguy.github.io/https-assets/bg/abstract/bg7.png')"
-  lovelace-background: var(--background-image2)
+  lovelace-background: var(--background-image3)
   primary-color: "#209cee"
   light-primary-color: "#B6B6C1"
   primary-background-color: "#212121"
