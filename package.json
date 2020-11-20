@@ -30,6 +30,8 @@
   },
   "scripts": {
     "commit": "cz",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate",
     "semantic-release": "semantic-release",
     "semantic-release:init": "semantic-release-cli setup"
   },

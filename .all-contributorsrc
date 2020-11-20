@@ -9,6 +9,20 @@
   "imageSize": 100,
   "commit": true,
   "commitConvention": "angular",
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "Thatkookooguy",
+      "name": "Neil Kalman",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10427304?v=4",
+      "profile": "http://thatkookooguy.kibibit.io/",
+      "contributions": [
+        "code",
+        "doc",
+        "design",
+        "infra",
+        "maintenance"
+      ]
+    }
+  ],
   "contributorsPerLine": 7
 }
