@@ -10,6 +10,9 @@
 </p>
 <p align="center">
   <a href="https://github.com/custom-components/hacs"><img src="https://img.shields.io/badge/HACS-Default-orange.svg"></a>
+    <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+<a href="#contributors-"><img src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square" alt="All Contributors"></a>
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
   <a href="https://imgur.com/gallery/SQJNbWb"><img src="https://img.shields.io/badge/Screenshots-Click_Here-ff3860.svg"></a>
 </p>
 <p align="center">
@@ -95,7 +98,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://thatkookooguy.kibibit.io/"><img src="https://avatars3.githubusercontent.com/u/10427304?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Neil Kalman</b></sub></a><br /><a href="https://github.com/thatkookooguy/@kibibit/hass-kibibit-theme/commits?author=Thatkookooguy" title="Code">💻</a> <a href="https://github.com/thatkookooguy/@kibibit/hass-kibibit-theme/commits?author=Thatkookooguy" title="Documentation">📖</a> <a href="#design-Thatkookooguy" title="Design">🎨</a> <a href="#infra-Thatkookooguy" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-Thatkookooguy" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="http://thatkookooguy.kibibit.io/"><img src="https://avatars3.githubusercontent.com/u/10427304?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Neil Kalman</b></sub></a><br /><a href="https://github.com/kibibit/hass-kibibit-theme/commits?author=Thatkookooguy" title="Code">💻</a> <a href="https://github.com/kibibit/hass-kibibit-theme/commits?author=Thatkookooguy" title="Documentation">📖</a> <a href="#design-Thatkookooguy" title="Design">🎨</a> <a href="#infra-Thatkookooguy" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-Thatkookooguy" title="Maintenance">🚧</a></td>
   </tr>
 </table>
 
