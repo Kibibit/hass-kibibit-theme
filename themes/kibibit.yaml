@@ -83,6 +83,7 @@ kibibit:
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
+  fc-neutral-bg-color: var(--primary-background-color)
 
 #
 # kibibit theme - Dark Cards ('White' Cards)
@@ -163,3 +164,4 @@ kibibit-dark-cards:
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
+  fc-neutral-bg-color: var(--primary-background-color)
