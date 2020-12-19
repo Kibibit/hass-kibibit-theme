@@ -113,6 +113,9 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 This theme started based on this post [Henrik](https://www.reddit.com/user/Trollet_/)'s [reddit post](https://www.reddit.com/r/homeassistant/comments/c4s28m/my_current_lovelace_ui_constructive_feedback_is/).
 
+Learned a lot about lovelace themes from the [lovelace ios themes repo](https://github.com/basnijholt/lovelace-ios-themes)!
+Check their themes out!
+
 ## Stay in touch
 
 - Author - [Neil Kalman](https://github.com/thatkookooguy)
