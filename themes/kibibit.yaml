@@ -3,7 +3,13 @@
 #
 kibibit:
   # Global
-  background-image: "center / cover no-repeat fixed url('https://thatkookooguy.github.io/https-assets/bg-kibibit-theme.png')"
+  background-image: "center / cover no-repeat fixed url('/local/bg.png'), center / cover no-repeat fixed url('https://thatkookooguy.github.io/https-assets/bg/abstract/bg.png')"
+  background-image2: "center / cover no-repeat fixed url('/local/bg.png'), center / cover no-repeat fixed url('https://thatkookooguy.github.io/https-assets/bg/abstract/bg2.png')"
+  background-image3: "center / cover no-repeat fixed url('/local/bg.png'), center / cover no-repeat fixed url('https://thatkookooguy.github.io/https-assets/bg/abstract/bg3.png')"
+  background-image4: "center / cover no-repeat fixed url('/local/bg.png'), center / cover no-repeat fixed url('https://thatkookooguy.github.io/https-assets/bg/abstract/bg4.png')"
+  background-image5: "center / cover no-repeat fixed url('/local/bg.png'), center / cover no-repeat fixed url('https://thatkookooguy.github.io/https-assets/bg/abstract/bg5.png')"
+  background-image6: "center / cover no-repeat fixed url('/local/bg.png'), center / cover no-repeat fixed url('https://thatkookooguy.github.io/https-assets/bg/abstract/bg6.png')"
+  background-image7: "center / cover no-repeat fixed url('/local/bg.png'), center / cover no-repeat fixed url('https://thatkookooguy.github.io/https-assets/bg/abstract/bg7.png')"
   lovelace-background: var(--background-image)
   primary-color: "#209cee"
   light-primary-color: "#B6B6C1"
@@ -35,7 +41,7 @@ kibibit:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
   # Sliders
   paper-slider-knob-color: "#FFF"
@@ -77,6 +83,8 @@ kibibit:
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
+  fc-neutral-bg-color: var(--primary-background-color)
+  fc-page-bg-color: transparent
 
 #
 # kibibit theme - Dark Cards ('White' Cards)
@@ -115,7 +123,7 @@ kibibit-dark-cards:
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
   state-icon-color: "#FFF"
-  state-icon-active-color: "#FFF"  # or make light icons yellow when active: rgba(255, 214, 10, 1)
+  state-icon-active-color: rgba(255, 214, 10, 1)
   state-icon-unavailable-color: var(--disabled-text-color)
   # Sliders
   paper-slider-knob-color: "#FFF"
@@ -157,3 +165,5 @@ kibibit-dark-cards:
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
+  fc-neutral-bg-color: var(--primary-background-color)
+  fc-page-bg-color: transparent

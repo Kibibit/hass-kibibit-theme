@@ -6,15 +6,19 @@
   </h2>
 </p>
 <p align="center">
-  <a href="https://github.com/custom-components/hacs"><img src="https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge"></a>
-  <a href="https://imgur.com/gallery/SQJNbWb"><img src="https://img.shields.io/badge/Screenshots-Click_Here-ff3860.svg?style=for-the-badge"></a>
+  <a href="https://www.npmjs.com/package/@kibibit/hass-kibibit-theme"><img src="https://img.shields.io/npm/v/@kibibit/hass-kibibit-theme/latest.svg?style=for-the-badge&logo=npm&color=CB3837"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/custom-components/hacs"><img src="https://img.shields.io/badge/HACS-Default-orange.svg?style=flat-square"></a>
+    <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+<a href="#contributors-"><img src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square" alt="All Contributors"></a>
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+  <a href="https://imgur.com/gallery/SQJNbWb"><img src="https://img.shields.io/badge/Screenshots-Click_Here-ff3860.svg?style=flat-square"></a>
 </p>
 <p align="center">
   A milky glass theme for Home Assistant
 </p>
 <hr>
-
-This is based on [Henrik](https://www.reddit.com/user/Trollet_/)'s [reddit post](https://www.reddit.com/r/homeassistant/comments/c4s28m/my_current_lovelace_ui_constructive_feedback_is/) with a few additions of mine
 
 ## Screenshots
 ![Theme - Overview](https://thatkookooguy.github.io/https-assets/dashboard-example.png)
@@ -84,6 +88,33 @@ In order to have this theme set automatically as the backend selected default, a
       name: kibibit
     service: frontend.set_theme
 ```
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://thatkookooguy.kibibit.io/"><img src="https://avatars3.githubusercontent.com/u/10427304?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Neil Kalman</b></sub></a><br /><a href="https://github.com/kibibit/hass-kibibit-theme/commits?author=Thatkookooguy" title="Code">💻</a> <a href="https://github.com/kibibit/hass-kibibit-theme/commits?author=Thatkookooguy" title="Documentation">📖</a> <a href="#design-Thatkookooguy" title="Design">🎨</a> <a href="#infra-Thatkookooguy" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-Thatkookooguy" title="Maintenance">🚧</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## Credits
+
+This theme started based on this post [Henrik](https://www.reddit.com/user/Trollet_/)'s [reddit post](https://www.reddit.com/r/homeassistant/comments/c4s28m/my_current_lovelace_ui_constructive_feedback_is/).
+
+Learned a lot about lovelace themes from the [lovelace ios themes repo](https://github.com/basnijholt/lovelace-ios-themes)!
+Check their themes out!
 
 ## Stay in touch
 
