@@ -57,7 +57,7 @@ kibibit:
   label-badge-text-color: "#F1F1F1"
   label-badge-red: rgba(255, 159, 9, 0.7)  # from Apple systemOrange dark mode
   # Cards
-  card-background-color: var(--secondary-background-color)  # Unused entities table background
+  card-background-color: rgba(25, 25, 25, 1) # More info dialog background, Unused entities table background
   paper-listbox-background-color: var(--primary-background-color)
   ha-card-border-radius: 20px
   ha-card-background: 'rgba(150, 150, 150, 0.1)'
@@ -139,7 +139,7 @@ kibibit-dark-cards:
   label-badge-text-color: "#F1F1F1"
   label-badge-red: rgba(255, 159, 9, 0.7)  # from Apple systemOrange dark mode
   # Cards
-  card-background-color: var(--secondary-background-color)  # Unused entities table background
+  card-background-color: rgba(25, 25, 25, 1) # More info dialog background, Unused entities table background
   paper-listbox-background-color: var(--primary-background-color)
   ha-card-border-radius: 20px
   ha-card-background: 'rgba(0, 0, 0, 0.3)'
