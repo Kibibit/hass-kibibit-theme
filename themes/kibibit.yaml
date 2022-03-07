@@ -79,6 +79,15 @@ kibibit:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   app-header-background-color: var(--primary-background-color)
+  # Input fields
+  input-fill-color: "var(--primary-background-color)"
+  input-ink-color: "var(--primary-text-color)"
+  input-idle-line-color: "var(--primary-background-color)"
+  input-hover-line-color: "var(--primary-color)"
+  input-outlined-idle-border-color: "var(--primary-text-color)"
+  input-outlined-hover-border-color: "var(--primary-text-color)"
+  input-label-ink-color: "var(--primary-text-color)"
+  input-dropdown-icon-color: "var(--primary-text-color)"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
@@ -161,6 +170,15 @@ kibibit-dark-cards:
   paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   app-header-background-color: var(--primary-background-color)
+  # Input fields
+  input-fill-color: "var(--primary-background-color)"
+  input-ink-color: "var(--primary-text-color)"
+  input-idle-line-color: "var(--primary-background-color)"
+  input-hover-line-color: "var(--primary-color)"
+  input-outlined-idle-border-color: "var(--primary-text-color)"
+  input-outlined-hover-border-color: "var(--primary-text-color)"
+  input-label-ink-color: "var(--primary-text-color)"
+  input-dropdown-icon-color: "var(--primary-text-color)"
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
