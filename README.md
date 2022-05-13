@@ -9,7 +9,7 @@
   <a href="https://www.npmjs.com/package/@kibibit/hass-kibibit-theme"><img src="https://img.shields.io/npm/v/@kibibit/hass-kibibit-theme/latest.svg?style=for-the-badge&logo=npm&color=CB3837"></a>
 </p>
 <p align="center">
-  <a href="https://github.com/custom-components/hacs"><img src="https://img.shields.io/badge/HACS-Default-orange.svg?style=flat-square"></a>
+  <a href="https://github.com/hacs/integration"><img src="https://img.shields.io/badge/HACS-Default-orange.svg?style=flat-square"></a>
     <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 <a href="#contributors-"><img src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square" alt="All Contributors"></a>
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
