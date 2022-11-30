@@ -85,7 +85,15 @@ kibibit:
   mini-media-player-icon-color: white
   fc-neutral-bg-color: var(--primary-background-color)
   fc-page-bg-color: transparent
-
+  # Code Editor
+  code-editor-background-color: var(--primary-background-color) # (main code page background)
+  code-editor-gutter-color: var(--primary-background-color) # (line numbers column background)
+  # Inputs
+  input-fill-color: var(--primary-background-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-ink-color: rgba(100, 100, 100, 1)
+  input-dropdown-icon-color: white
 #
 # kibibit theme - Dark Cards ('White' Cards)
 #
