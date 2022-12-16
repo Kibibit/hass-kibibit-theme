@@ -40,12 +40,9 @@ frontend:
 ```
 
 ### Add the font
-Right now, this theme requires you to add the `Comfortaa` font as a resource to your lovelace configuration:
-```yaml
-resources:
-  - url: https://fonts.googleapis.com/css?family=Comfortaa&display=swap
-  type: css
-```
+Right now, this theme requires you to add the `Comfortaa` font as a resource to your lovelace configuration. In HA go to "Settings -> Dashboards" and click the three dotted menu in the upper right corner. Choose resources. Then click "Add resource" and use the following url:
+```https://fonts.googleapis.com/css?family=Comfortaa&display=swap```
+Choose resource type "stylesheet".
 
 ### HACS
 
