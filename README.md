@@ -40,20 +40,19 @@ frontend:
 ```
 
 ### Add the font
-Right now, this theme requires you to add the `Comfortaa` font as a resource to your lovelace configuration:
-```yaml
-resources:
-  - url: https://fonts.googleapis.com/css?family=Comfortaa&display=swap
-  type: css
-```
+Right now, this theme requires you to add the `Comfortaa` font as a resource to your lovelace configuration. In HA go to "Settings -> Dashboards" and click the three dotted menu in the upper right corner. Choose resources. Then click "Add resource" and use the following url:
+```https://fonts.googleapis.com/css?family=Comfortaa&display=swap```
+Choose resource type "stylesheet".
 
 ### HACS
 
 1. Go to the Community Store.
-2. Search for `kibibit`.
-3. Navigate to `kibibit` theme.
-4. Press `Install`.
-6. Go to services and trigger the `frontend.reload_themes` service.
+2. click on "explore & download repositories" bottom right.
+3. Search for `kibibit`.
+4. Navigate to `kibibit` theme.
+5. Click on the theme and then "download" bottom right.
+6. A popup will open, click download again.
+8. Go to developer tools -> services and trigger the `frontend.reload_themes` service.
 
 ### Change the background
 
